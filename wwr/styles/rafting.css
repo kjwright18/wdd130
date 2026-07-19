@@ -1,5 +1,5 @@
 root {
-    --primary-color: #08A04B;
+    --primary-color: #08a04b;
     /*Irish Green*/
     --secondary-color: #c9ae5d;
     /*Bronze Gold*/
@@ -11,20 +11,20 @@ root {
     --body-font: "Times New Roman", "Georgia", Serif;
 }
 
-header {
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
 body {
     font-family: var(--body-font);
-    color: var(accent1-color);
+    color: var(--accent1-color);
 }
 
 header,
