@@ -28,11 +28,14 @@ body {
 }
 
 header,
-main,
-footer {
+main {
     width: 840px;
     margin: 0 auto;
     background-color: var(--primary-color)
+}
+
+footer {
+    width: 150px;
 }
 
 h1,
@@ -63,7 +66,8 @@ article {
     height: auto;
 }
 
-.hero h1 {
+.hero h1,
+h2 {
     position: absolute;
     top: 20px;
     width: 100%;
