@@ -50,7 +50,9 @@ article {
 
 .socialmedia a {
     text-decoration: none;
-    display: flex;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
     justify-content: center;
     align-items: center;
     gap: 20px;
