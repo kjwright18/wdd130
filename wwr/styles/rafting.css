@@ -12,6 +12,10 @@
 }
 
 header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around, center;
+    align-items: center;
     background-color: var(--Primary-color);
     color: var(--accent2-color);
 }
