@@ -108,7 +108,7 @@ article {
 }
 
 .hero article {
-    position: float;
+    position: absolute;
     bottom: 15px;
     width: 100%;
     padding: 16px;
