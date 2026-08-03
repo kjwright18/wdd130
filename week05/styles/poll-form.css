@@ -10,3 +10,103 @@ body {
     color: black;
     background: whitesmoke;
 }
+
+header {
+    margin: 0 auto;
+    width: 600px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 16px;
+    color: navy;
+    text-align: center;
+}
+
+form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(000 / 0.1);
+    border-radius: 0.5rem;
+    background-color: navajowhite;
+    display: grid;
+}
+
+fieldset {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1em;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+    font-family: lucida, courier, monospace;
+}
+
+label {
+    text-align: left;
+    padding-right: 2rem;
+}
+
+input,
+select,
+textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    align-items: center;
+}
+
+button {
+    margin: 1rem;
+    background-color: black;
+    color: red;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: navajowhite;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: black;
+    border-top: 1px solid #ccc;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 0.5rem 0;
+}
